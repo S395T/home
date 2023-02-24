@@ -1,0 +1,8 @@
+setInterval(function() {
+  stringwrite();}, 15)
+var string = '<head><meta charset="UTF-8"><title>メリーズアカデミー！</title></head><body bgcolor="f5f5f5" style="width:800px; margin:0 auto;"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:48px"><span style="color:#27ae60"><strong>Merry&#39;s Academy</strong></span></span></span><center></p><span style="font-size:22px">Merry&#39;s Academy can teach English well!</span></p>&nbsp;</p><span style="font-size:26px">メリーズアカデミーでは<span style="color:#e74c3c">英語力を徹底的</span>に伸ばします！</span></p>&nbsp;</p><span style="font-size:26px">アンケートでは、一人のうちの一人</span></p><span style="font-size:26px">つまり、<span style="color:#e74c3c">100%が良いと感じています</span>。</span></p>&nbsp;</p><span style="font-size:26px">ぜひ、メリーズアカデミーに入って</span></p><span style="font-size:26px">外国人のように英語ができるようにしましょう！<br />​​​​​​</span></p><span style="font-size:26px">そして、月々の料金は懐にやさしい、<span style="color:#e74c3c">100000000円</span>！</span></p><p style="text-align:center"><span style="font-size:26px">この値段は&epsilon;&sup2;をかけると<span style="color:#e74c3c">0</span>になる数です！</span></p><br><br><br><br><table border="1" class="table"><tr><th>電話番号</th><th>メール</th></tr><tr><td>0000000000</td><td>0000000000@gmail.com</td></tr></table><br><br><br><form name="page"><br><br></form><style>.button{font-size: 160%;}.table{font-size: 160%;}</style><style>.button{color: black;background-color: #e0e0e0;}.table{color: black;background-color: #e0e0e0;}</style></center></body></html>';
+var stringa = 0;
+function stringwrite(){
+   document.write(string.slice(0,1));
+   string = string.slice(1,string.length);
+}
